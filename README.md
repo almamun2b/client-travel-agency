@@ -1,20 +1,17 @@
-# Getting Started with Create React App
+# Blue Travel Agency
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Site Link [Click Here](https://blue-travel-agency.web.app/).
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+Travel is the main thing you purchase that makes you more extravagant”. We, at ‘Organization Name’, swear by this and put stock in satisfying travel dreams that make you perpetually rich constantly.
 
-### `npm start`
+We have been moving excellent encounters for a considerable length of time through our cutting-edge planned occasion bundles and other fundamental travel administrations. We rouse our clients to carry on with a rich life, brimming with extraordinary travel encounters.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Services
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+We he help yout tour enjoyable. Through our exceptionally curated occasion bundles, we need to take you on an adventure where you personally enjoy the stunning magnificence of America and far-off terrains. We need you to observe sensational scenes that are a long way past your creative ability.
 
-### `npm test`
+### Technology Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+We used BootStrap, CSS3, HTML5, React, Custom API...etc to Develop this Site.

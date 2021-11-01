@@ -8,7 +8,7 @@ const AddService = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         console.log(data);
-        axios.post('https://aqueous-eyrie-03916.herokuapp.com/services/', data)
+        axios.post('https://aqueous-eyrie-03916.herokuapp.com/services', data)
             .then(res => {
                 // console.log(res);
                 if (res.data.insertedId) {
@@ -25,7 +25,7 @@ const AddService = () => {
                 <input {...register("name", { required: true, maxLength: 20 })} placeholder="Name" />
                 <textarea {...register("description")} placeholder="Description" />
                 <input type="number" {...register("price")} placeholder="Price" />
-                <input {...register("img")} placeholder="Image URL" />
+                <input {...register("imgage")} placeholder="Image URL" />
                 <input type="submit" />
             </form>
         </div>

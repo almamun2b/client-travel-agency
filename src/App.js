@@ -13,6 +13,7 @@ import WorldTours from './components/WorldTours/WorldTours';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
 import AddService from './components/AddService/AddService';
 import ManageServices from './components/ManageServices/ManageServices';
+import ServceDetails from './components/ServceDetails/ServiceDetails';
 
 function App() {
   return (
@@ -27,22 +28,19 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route path="/about">
-              <About></About>
-            </Route>
             
             <PrivateRoute exact path="/services">
               <Services></Services>
             </PrivateRoute>
-            <Route path="/services/:serviceId">
-              <Services></Services>
-            </Route>
-            <Route path="/addService">
+            <PrivateRoute path="/services/:serviceId">
+              <ServceDetails></ServceDetails>
+            </PrivateRoute>
+            <PrivateRoute path="/addService">
               <AddService></AddService>
-            </Route>
-            <Route path="/manageServices">
+            </PrivateRoute>
+            <PrivateRoute path="/manageServices">
               <ManageServices></ManageServices>
-            </Route>
+            </PrivateRoute>
             
             <Route path="/galary">
               <Galaries></Galaries>

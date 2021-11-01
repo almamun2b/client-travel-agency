@@ -11,16 +11,13 @@ const About = () => {
                     <div className="col-12 col-lg-6">
                         <h1 className="text-success">About</h1>
                         <h4 className="text-primary">Search and Enjoy!</h4>
-                        <p>Bangladesh Specialized Hospital has all the characteristics of a world-class hospital with wide range of services and specialists, equipments and technology, ambience and service quality. The hospital is a showcase of synergy of medical technology and advances in ICT through paperless medical records. The skilled nurses, technologists and administrators of Bangladesh Specialized Hospital.</p>
-                        
+                        <p>Travel is the main thing you purchase that makes you more extravagant”. We, at ‘Organization Name’, swear by this and put stock in satisfying travel dreams that make you perpetually rich constantly.
+
+                            We have been moving excellent encounters for a considerable length of time through our cutting-edge planned occasion bundles and other fundamental travel administrations. We rouse our clients to carry on with a rich life, brimming with extraordinary travel encounters.</p>
+
                         <h3 className="text-primary">OUR MISSION</h3>
-                        <p>We are dedicated to meeting the needs of: <br/>Our patient : excellent and cost-effective healthcare
-                            Our staff : continuing development and welfare
-                            Our nation : partnership in promoting health in Bangladesh.</p>
-                            
-                        <h3 className="text-primary">OUR VISION</h3>
-                        <p>To be a renowned organization at the leading edge of Medicine, providing quality healthcare to meet our nation's aspirations.
-                        </p>
+                        <p>To get the world closer</p>
+
 
 
                     </div>

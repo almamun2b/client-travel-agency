@@ -11,6 +11,7 @@ const ManageServices = () => {
 
     const handleDelete = id => {
         const url = `https://aqueous-eyrie-03916.herokuapp.com/services/${id}`;
+        
         fetch(url, {
             method: 'DELETE'
         })
@@ -22,7 +23,6 @@ const ManageServices = () => {
                     const remaining = services.filter(service => service._id !== id);
                     setServices(remaining);
                 }
-
             });
     }
 
@@ -32,7 +32,7 @@ const ManageServices = () => {
             {
                 services.map(service => <div key={service._id}>
                     <div className="pb-3">
-                        <h3>Service Name: {service.name}</h3>
+                        <h3>Location: {service.name}</h3>
                         <h5>Price: {service.price}</h5>
                         <p className="px-3">{service.description}</p>
                         <button onClick={() => handleDelete(service._id)}>Delete</button>
