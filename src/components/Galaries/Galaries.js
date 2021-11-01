@@ -10,7 +10,7 @@ const Galaries = () => {
             <div className='row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 p-3 container mx-auto'>
                 {
                     galaries.map(galary => <Galary
-                        key={galary.id}
+                        key={galary._id}
                         galary={galary}
                     ></Galary>)
                 }

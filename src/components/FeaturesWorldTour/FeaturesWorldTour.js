@@ -16,7 +16,7 @@ const FeaturesWorldTour = () => {
             <div className='row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 p-3 container mx-auto'>
                 {
                     slicedWorldTours.map(tour => <WorldTour
-                        key={tour.id}
+                        key={tour._id}
                         tour={tour}
                     ></WorldTour>)
                 }
