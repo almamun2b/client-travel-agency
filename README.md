@@ -27,4 +27,5 @@ We he help yout tour enjoyable. Through our exceptionally curated occasion bundl
 ### Technology Used
 
 • CSS, Bootstrap, React, Rest-API, Context-API, Font Awesome
+
 • Node.js, Express.js, MongoDB, Firebase, Heroku
