@@ -1,6 +1,19 @@
-# Blue Travel Agency
+# Travel Agency
 
-Site Link [Click Here](https://blue-travel-agency.web.app/).
+Live Client Site Link [Click Here](https://blue-travel-agency.web.app/).
+Live Server Site Link [Click Here](https://aqueous-eyrie-03916.herokuapp.com).
+
+## Project Summary:
+
+• A Full Functional web-based app, based on MERN Stack.
+
+• The website has a navbar, banner, dashboard, and products section. The homepage
+shows some products from all products. Clicking a product shows the detail of the
+products.
+
+• It has the Users and Admin section. A registered user can select cars to buy, Review the
+site. Users also can delete the selected car. The admin can add, delete products(cars),
+approve the user's selection, can change the role of a user to admin.
 
 ## About
 
@@ -14,4 +27,5 @@ We he help yout tour enjoyable. Through our exceptionally curated occasion bundl
 
 ### Technology Used
 
-We used BootStrap, CSS3, HTML5, React, Custom API...etc to Develop this Site.
+• CSS, Bootstrap, React, Rest-API, Context-API, Font Awesome
+• Node.js, Express.js, MongoDB, Firebase, Heroku
