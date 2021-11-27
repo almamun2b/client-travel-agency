@@ -5,15 +5,14 @@ Live Server Site Link [Click Here](https://aqueous-eyrie-03916.herokuapp.com).
 
 ## Project Summary:
 
-• A Full Functional web-based app, based on MERN Stack.
+• This is a Travel Agency website where registered users can find and book national and
+international travel locations based on their interests.
 
-• The website has a navbar, banner, dashboard, and products section. The homepage
-shows some products from all products. Clicking a product shows the detail of the
-products.
+• The website has a navbar, banner, dashboard, and travel location section. The homepage
+shows some national and international locations. Clicking a location shows the detail.
 
-• It has the Users and Admin section. A registered user can select cars to buy, Review the
-site. Users also can delete the selected car. The admin can add, delete products(cars),
-approve the user's selection, can change the role of a user to admin.
+• On the dashboard, the user can delete the selected item. The admin can add, delete travel
+spots.
 
 ## About
 
